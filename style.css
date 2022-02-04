@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  background: #45d988;
+  color: black;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  display: inLine;
+  position: fixed;
+}
+
+#logo {
+  display: flex;
+  color: #000;
+  width: 800px;
+}
+
+#header-img {
+  border-radius: 1rem;
+  width: 7%;
+}
+
+.log {
+  margin: auto 10px;
+  background: #58d6f0;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+#nav-bar {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 0.8rem;
+}
+
+.nav-link {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  padding: 0.6rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  background: #fff;
+}
+
+.nav-link:hover {
+  border: #fff 2px solid;
+  border-radius: 0.4rem;
+  background: #58d6f0;
+  color: #fff !important;
+  box-shadow: 0 4px 20px #fff;
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: #8ffc58;
+  }
+}
+
+body {
+  font: 16px/1.5 "Noto Serif", serif;
+  background: #5aad;
+  width: 600px;
+  margin: 120px auto 0px auto;
+}
+
+#informacion {
+  background: #58d6f0;
+  border-radius: 1rem;
+  margin: 0px 100px 0px 100px;
+}
+
+#nombre {
+  display: block;
+  width: 60%;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 10px 1px 30px 60px;
+}
+
+#email {
+  display: block;
+  width: 60%;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 10px 1px 30px 60px;
+}
+
+#email-label {
+  margin: 60px;
+}
+
+#submit {
+  margin: -9px 0px 30px 140px;
+  width: 100px;
+  padding: 0.5rem;
+  font-size: 16px;
+  color: #000;
+  background-color: #8ffc58;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: #fff;
+  box-shadow: 0 6px 20px #8ffc58;
+  transition: all 0.2s ease;
+}
+
+#video {
+  border: solid;
+  margin: 5% 14px;
+  color: #8ffc58;
+}
+
+#nombre-label {
+  margin: 60px;
+}
+
+#tablas-precios {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.precio-colombia {
+  background-color: #dddddd;
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 45px;
+  box-shadow: 0px 2px 5px #ddd;
+}
+
+.precio-colombia {
+  margin-right: 2%;
+  width: 32%;
+  float: left;
+}
+
+.precio-colombia:last-child {
+  margin-right: 0;
+}
+
+.precio-colombia-header {
+  background-color: #45d988;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.precio-colombia:nth-child(2) .precio-col-header {
+  background-color: #45d988;
+}
+
+.precio-colombia-header h3 {
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.precio-colombia-header p {
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.precio-colombia-features {
+  padding: 0 20px 20px 20px;
+}
+
+.precio-colombia-features p {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+
+.precio-colombia-features p:first-child,
+.precio-colombia-features p:last-child {
+  border-top: none;
+}
+
+.precio-colombia-adquirir {
+  padding: 10px;
+  background-color: #58d6f0;
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  transition: all 0.2s;
+}
+
+.precio-colombia-adquirir a {
+  padding: 10px;
+  font-size: 18px;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.precio-colombia-adquirir:hover {
+  background-color: #f3f3f3;
+  transition: all 0.2s;
+}
+
+.precio-colombia-adquirir:hover a {
+  color: #000;
+  transition: all 0.2s;
+}
+
+#main-footer {
+  background: #45d988;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  padding: 0.6rem;
+  left: 0px;
+  width: 100%;
+  rigth: auto;
+}
